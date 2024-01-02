@@ -5,6 +5,7 @@
 | Column             | Type    | Options                  |
 | ------------------ | ------- | ------------------------ |
 | nickname           | string  | null: false              |
+| region_id          | integer | null: false              |
 | email              | string  | null: false, unique: true|
 | encrypted_password | string  | null: false              |
 
